@@ -23,7 +23,7 @@ media/
 *.swo
 
 # Ortam değişkenleri (Hassas bilgiler)
-.env
+main/.env
 
 # MacOS ve Windows gereksiz dosyaları
 .DS_Store
