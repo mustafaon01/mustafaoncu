@@ -1,0 +1,30 @@
+# Sanal ortam (venv)
+venv/
+ENV/
+env/
+
+# Derlenmiş Python dosyaları
+*.pyc
+*.pyo
+__pycache__/
+
+# Django statik ve medya dosyaları
+staticfiles/
+media/
+
+# Django gizli dosyalar
+*.sqlite3
+*.log
+
+# IDE ve Editör Dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ortam değişkenleri (Hassas bilgiler)
+.env
+
+# MacOS ve Windows gereksiz dosyaları
+.DS_Store
+Thumbs.db
